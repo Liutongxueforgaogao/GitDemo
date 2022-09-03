@@ -7,6 +7,12 @@ import org.springframework.web.bind.annotation.RequestMapping;
 public class devService {
     @RequestMapping
     public String m(){
+        m1();
         return "success";
     }
+
+    private void m1() {
+    }
+
+
 }
